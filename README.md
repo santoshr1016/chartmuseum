@@ -14,13 +14,17 @@ helm upgrade XXX . --set service.type=NodePort
 
 ### How to Host charts in github
 ```text
-1. Create a new hithub repo with default README.md (optional)
-2. Get your chart folder.
-3. Package it using the command 
+0. Create a new github repo with default README.md (optional).
+1. cd chartmuseum.
+2. Copy your chart folder here.
+3. Package it using the command. 
     # helm package CHART_FOLDER
+    # helm package mynginx
+    # it will create .gz file mynginx-0.3.0.tgz    
 4. Create the index.html
     # helm repo index .
 5. git add.
 6. git push
+
 
 ```
