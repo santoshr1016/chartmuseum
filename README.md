@@ -12,7 +12,7 @@ helm rollback XXX 1
 helm upgrade XXX . --set service.type=NodePort
 ```
 
-### How to Host charts in github
+### How to "host" charts in github
 ```text
 0. Create a new github repo with default README.md (optional).
 1. cd chartmuseum.
@@ -25,6 +25,17 @@ helm upgrade XXX . --set service.type=NodePort
     # helm repo index .
 5. git add.
 6. git push
+
+
+```
+
+### How to use charts from the new hosted github repo
+```text
+1. helm repo list
+2. helm repo add mycharts https://raw.githubusercontent.com/santoshr1016/chartmuseum/master
+3. helm repo list
+4. helm install --name sasa mycharts/mynginx ( "mychart" is the local alias for the chartmuseum, see instruction 2 )
+5. helm ls
 
 
 ```
