@@ -1,0 +1,6 @@
+apiVersion: v1
+name: northern_lights
+version: 0.1.0
+appVersion: 1.0
+description: Northern Lights Chart - Santosh
+

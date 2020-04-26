@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: northern-lights
+  name: northern-lights
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      run: northern-lights
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: northern-lights
+    spec:
+      containers:
+      - image: santoshr1016/nginx
+        name: northern-lights
+        resources: {}
+status: {}
