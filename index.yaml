@@ -3,11 +3,21 @@ entries:
   mynginx:
   - apiVersion: v1
     appVersion: "1"
-    created: 2020-04-25T16:24:37.932018+08:00
+    created: 2020-04-26T18:18:05.193394+08:00
     description: This is sample nginx chart
     digest: d481ac9713e29177a4123b0fb7b59e2f64cdb8cfacf38200c54c2f3348397c41
     name: mynginx
     urls:
     - mynginx-0.3.0.tgz
     version: 0.3.0
-generated: 2020-04-25T16:24:37.931657+08:00
+  northern_lights:
+  - apiVersion: v1
+    appVersion: "1"
+    created: 2020-04-26T18:18:05.193521+08:00
+    description: Northern Lights Chart - Santosh
+    digest: 0938b4ca3bc92e48efe0104345724f73fe0dce6181b89ab80518cc100e240bda
+    name: northern_lights
+    urls:
+    - northern_lights-0.1.0.tgz
+    version: 0.1.0
+generated: 2020-04-26T18:18:05.192392+08:00
