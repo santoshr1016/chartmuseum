@@ -49,3 +49,15 @@ Go to the stable folder of the chartsmuseum
 5. helm install mycharts/northern_lights  --name lights
 
 ```
+
+### How to search
+```text
+➜  helm repo list         
+NAME    	URL                                                                     
+stable  	https://kubernetes-charts.storage.googleapis.com                        
+local   	http://127.0.0.1:8879/charts                                            
+mycharts	https://raw.githubusercontent.com/santoshr1016/chartmuseum/master/stable
+➜  helm search mycharts  
+➜  helm install --name lights mycharts/northern_lights
+
+```
