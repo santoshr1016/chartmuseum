@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  hostname:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-04-27T05:38:13.308281+08:00
+    description: A Helm chart for the hostname app
+    digest: 5c67328bb0cb3153b68bb499f6b2e87523c3e71df2ecf3331e2cdc0f55b8777f
+    name: hostname
+    urls:
+    - hostname-0.1.0.tgz
+    version: 0.1.0
   mynginx:
   - apiVersion: v1
     appVersion: "1"
-    created: 2020-04-26T18:18:05.193394+08:00
+    created: 2020-04-27T05:38:13.309098+08:00
     description: This is sample nginx chart
     digest: d481ac9713e29177a4123b0fb7b59e2f64cdb8cfacf38200c54c2f3348397c41
     name: mynginx
@@ -13,11 +23,11 @@ entries:
   northern_lights:
   - apiVersion: v1
     appVersion: "1"
-    created: 2020-04-26T18:18:05.193521+08:00
+    created: 2020-04-27T05:38:13.310096+08:00
     description: Northern Lights Chart - Santosh
     digest: 0938b4ca3bc92e48efe0104345724f73fe0dce6181b89ab80518cc100e240bda
     name: northern_lights
     urls:
     - northern_lights-0.1.0.tgz
     version: 0.1.0
-generated: 2020-04-26T18:18:05.192392+08:00
+generated: 2020-04-27T05:38:13.307563+08:00
