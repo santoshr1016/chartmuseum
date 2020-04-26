@@ -24,7 +24,8 @@ helm upgrade XXX . --set service.type=NodePort
 4. Create the index.html
     # helm repo index .
 5. git add .
-6. git push
+6. git commit -m "Add chart"
+7. git push
 
 
 ```
@@ -44,9 +45,10 @@ Go to the stable folder of the chartsmuseum
 1. Package it using, helm package northern_lights  
 2. Update the index.html, helm repo index .
 3. git add .
-4. git push
-5. helm repo update
-5. helm install mycharts/northern_lights  --name lights
+4. git commit -m "Add chart"
+5. git push
+6. helm repo update
+7. helm install mycharts/northern_lights  --name lights
 
 ```
 
